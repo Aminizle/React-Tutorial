@@ -26,7 +26,8 @@ function App() {
 
 
 
-<button onClick={getJoke}>get joke</button>
+<button onClick={getJoke}>get bad joke</button>
+
     
     </div>
   );
