@@ -1,8 +1,10 @@
-import logo from "./logo.svg";
 import "./App.css";
 import Greet from "./components/Greet";
 import Message from "./components/Message";
 import getJoke from "./components/GetJoke";
+import Home from "./components/UseStatePractice";
+import FetchBadJokes from "./components/GetBadJoke";
+
 
 
 function App() {
@@ -25,12 +27,27 @@ function App() {
       <Greet name="Tony Stark" heroname="Iron Man" />
 
 
-
 <button onClick={getJoke}>get bad joke</button>
+<button onClick={FetchBadJokes}>get bad jokes</button>
+<Home />
 
     
     </div>
   );
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 export default App;
